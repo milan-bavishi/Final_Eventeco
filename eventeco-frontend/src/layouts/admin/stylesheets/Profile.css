@@ -1,0 +1,58 @@
+.dashNavBtn {
+  background: none;
+  border: none;
+  position: relative;
+}
+
+.dashNavProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.DropDownContainer_22 {
+  position: absolute;
+  top: 135%;
+  z-index: 1000;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  overflow: hidden;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  border-radius: var(--12, 12px);
+  background: #fff;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.imageAtDropDown {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.linkAtDropDown_22 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+  padding: 15px;
+  font-size: 1rem;
+  transition: all 200ms linear;
+}
+
+.linkAtDropDown_22:hover {
+  background-color: #000000c1;
+  color: white;
+}
+
+.dashNavRightLink {
+  text-decoration: none;
+  color: black;
+}
+
+.dashNavRightDashImg {
+  transform: scale(1.3)
+}
+

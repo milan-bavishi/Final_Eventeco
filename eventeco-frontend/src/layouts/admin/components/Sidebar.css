@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dashSideContainer {
+  width: 250px;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  background-color: #0a142f;
+  transition: all 0.3s ease;
+}
+
+.dashsidecontainer .dashSideLogo img {
+  height: 100px;
+  width: 210px;
+}
+
+.dashsidecontainer .link-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 200ms linear;
+}
+
+.dashSideContainer .link-items li {
+  list-style-type: none;
+}
+
+.link-item a {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  transition: all 150ms linear;
+}
+
+.link-item:hover a {
+  /* background-color: rgba(111, 175, 218, 0.595); */
+  border-radius: var(--12, 12px);
+  background: rgba(198, 216, 229, 0.23);
+}
+
+.link-item a span {
+  transition: transform 0.5s;
+  transform: translateX(0);
+}
+
+.dashsidecontainer.active .link-item a span {
+  transition-delay: calc(0.02s * var(--i));
+  transform: translateX(0px);
+}
+
+.link-item.active a {
+  /* color: var(--light-text-clr); */
+  border-radius: var(--12, 12px);
+  border: 1px solid var(--dash-stock, #fff);
+  background: rgba(198, 216, 229, 0.6);
+}
+
+.link-item ion-icon {
+  min-width: 20px;
+  min-height: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.link-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-self: start;
+  margin-bottom: 30px;
+}
+
+.hrline {
+  margin: 15px 0;
+}

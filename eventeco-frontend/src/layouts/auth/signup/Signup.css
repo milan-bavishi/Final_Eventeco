@@ -1,0 +1,172 @@
+.signWrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.signSlider {
+  width: 55%;
+  height: 100%;
+}
+
+.signSlider img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.signRightSection {
+  width: 45%;
+  height: 100%;
+}
+
+.signRightSection .signTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 50px 50px 50px 100px;
+}
+
+.signRightSection .signTop .signDetails .signStart h1 {
+  color: #15063f;
+  font-family: "Playfair Display";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.9px;
+}
+
+.signRightSection .signTop .signDetails .signCreate .signFirstSection h2 {
+  color: #0a142f;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.signRightSection .signTop .signDetails .signCreate .signFirstSection h4 {
+  color: #3b4359;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.signTop .signDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.signTop .signDetails .signCreate {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signTop .signDetails .signCreate .signFirstSection {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.signSecondSection .signInputs .inputName input {
+  display: flex;
+  width: 245px;
+  padding: 17px 16px;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #fff;
+  box-shadow: 4px 6px 15px 0px rgba(0, 0, 0, 0.06);
+}
+.signSecondSection .signInputs .inputOthers input {
+  display: flex;
+  width: 520px;
+  padding: 17px 16px;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 4px 6px 15px 0px rgba(0, 0, 0, 0.06);
+}
+.signTop .signDetails .signCreate .signSecondSection .signForm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.signSecondSection .signForm .signInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signSecondSection .signForm .signInputs input {
+  transition: all 200ms linear;
+}
+
+.signSecondSection .signForm .signInputs .inputName {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.signSecondSection .signForm .signBtn button {
+  display: flex;
+  width: 520px;
+  padding: 20px 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #0a142f;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: all 200ms linear;
+}
+.signSecondSection .signForm .signInputs .inputOthers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signTop .signAcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.signTop .signAcc .link {
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 200ms linear;
+  color: black;
+}
+
+/* Hover */
+
+.signSecondSection .signForm .signInputs input:hover {
+  transform: scale(1.05);
+}
+
+.signSecondSection .signForm .signBtn button:hover {
+  transform: scale(1.05);
+}
+
+.signTop .signAcc .link:hover {
+  transform: scale(1.1);
+}

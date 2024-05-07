@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.authWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authCard {
+  margin: 30px 0;
+  padding: 20px 55px 10px 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: var(--12, 12px);
+  background: #fff;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.authCardHead {
+  color: var(--main-to, #0a142f);
+  font-family: Satoshi;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.authFormInput {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#eventName {
+  display: flex;
+  height: 44px;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--stork-style, #c9c9c9);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.authFormInput label {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.authFormInput input {
+  display: flex;
+  height: 44px;
+  width: 300px;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--stork-style, #c9c9c9);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.authCardForm .authForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.authFormfs {
+  display: flex;
+  gap: 30px;
+}
+
+.authFormss {
+  display: flex;
+  gap: 30px;
+}
+
+.authFormts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authFormBtn button {
+  display: flex;
+  padding: 10px 35px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 10px;
+  border-radius: 6px;
+  background: #0a142f;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}

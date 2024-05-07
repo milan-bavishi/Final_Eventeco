@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+.loginWrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Left Section */
+
+.slider {
+  width: 55%;
+  height: 100%;
+}
+
+.slider img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.logSwiper {
+  height: 100%;
+  width: 100%;
+}
+
+/* Right Section */
+
+.logDetails {
+  width: 45%;
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logDetails .logDet {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* justify-items: center; */
+  /* align-items: center; */
+}
+
+.logDetails .loginDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logDetails .loginDetails .logHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.logDetails .loginDetails .logHeading h2 {
+  color: #15063f;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+.logDetails .loginDetails .logHeading p {
+  color: #3b4359;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.logDetails .welcome {
+  color: #15063f;
+  font-family: "Robot";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.9px;
+}
+
+.logDetails .loginDetails .formSection .logForm {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.logDetails .loginDetails .formSection .logForm .formInput {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formSection {
+  display: flex;
+  width: 520px;
+  align-items: center;
+  gap: 10px;
+}
+
+.loginDetails .formSection .logForm input {
+  display: flex;
+  width: 520px;
+  padding: 17px 16px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #fff;
+  box-shadow: 4px 6px 15px 0px rgba(0, 0, 0, 0.06);
+  font-size: 1rem;
+}
+
+.formSection .logForm .logBtn button {
+  display: flex;
+  width: 520px;
+  padding: 20px 188px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #0a142f;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.logDetails .account {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logDetails .account .link {
+  color: #15063f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

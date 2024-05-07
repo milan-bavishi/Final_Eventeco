@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.registerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerCard {
+  margin: 30px 0;
+  padding: 20px 55px 10px 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: var(--12, 12px);
+  background: #fff;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.regCardHeading h1 {
+  color: var(--main-to, #0a142f);
+  font-family: Satoshi;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.regCardForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.regFormInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.regFormInput label {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.regFormInput input {
+  display: flex;
+  height: 44px;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--stork-style, #c9c9c9);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  transition: all 200ms linear;
+}
+.regFormfs {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.regFormfs .regFormInput input {
+  width: 400px;
+}
+
+.regFormss .regFormInput input {
+  width: 400px;
+}
+
+.regFormts {
+  display: flex;
+  gap: 25px;
+}
+
+.regFormtsfs {
+  width: 47.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.regFormtsfs input {
+  width: 175px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regFormts .regFormtsss {
+  display: flex;
+  width: 52.5%;
+  padding-left: 30px;
+  justify-content: flex-start;
+}
+
+.regFormts .regFormtsss select {
+  display: flex;
+  width: 400px;
+  height: 44px;
+  padding: 10px;
+  font-size: 17px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--stork-style, #c9c9c9);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  transition: all 200ms linear;
+}
+
+.regFormFs {
+  display: flex;
+  gap: 50px;
+}
+
+.regFormFs .regFormInput textarea {
+  width: 400px;
+  display: flex;
+  height: 100px;
+  font-size: 17px;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--stork-style, #c9c9c9);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  resize: none;
+  transition: all 200ms linear;
+}
+
+.regFormSubmit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regFormSubmit .regFormBtn {
+  display: flex;
+  padding: 15px 25px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 10px;
+  border-radius: 6px;
+  background: #0a142f;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+/* Hover */
+
+.regFormInput input:hover,
+.regFormFs .regFormInput textarea:hover,
+.regFormts .regFormtsss select:hover,
+.regFormSubmit .regFormBtn:hover  {
+  transform: scale(1.05);
+}
