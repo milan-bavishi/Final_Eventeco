@@ -230,7 +230,7 @@ function App() {
                     <img src={qutos} alt="" />
                   </div>
                   <div className='sliContent'>
-                    <p>"Amazing platform! Made our event a breeze with its simplicity and security. Attendees loved the QR code tickets. Highly recommend!"</p>
+                    <p>"Amazing platform! Made our event a breeze with its simplicity and security. Attendees loved the  code tickets. Highly recommend!"</p>
                   </div>
                   <div className='sliderAbout'>
                     <div>

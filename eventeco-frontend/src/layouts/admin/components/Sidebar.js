@@ -15,8 +15,8 @@ function Sidebar({ toggleHandlerr }) {
     { text: 'Add Person', path: '/dashboard/addperson' },
     { text: 'Resgistration Data', path: '/dashboard/resgistrationdata' },
     { text: 'Add Authorities', path: '/dashboard/addauthorities' },
-    { text: 'Authorities data', path: '/dashboard/Authoritiesdata' },
-    { text: 'Check ticket', path: '/dashboard/checktickets' },
+    { text: 'Authorities Data', path: '/dashboard/Authoritiesdata' },
+    { text: 'Check Ticket', path: '/dashboard/checktickets' },
   ];
   const handleLinkItemClick = (index) => {
     setSelectedIndex(index);

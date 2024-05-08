@@ -61,23 +61,23 @@
   
   .authTopNavLeftSection .authTotalauth {
     display: flex;
-    padding: 6px var(--12, 12px);
-    justify-content: center;
-    align-items: center;
-    border-radius: var(--16, 16px);
-    background: #0a142f;
-    color: var(--Default-White, #fff);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 18px; /* 90% */
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--16, 16px);
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
   }
   
   .authTopNavRightSection {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 60%;
+    width: 5%;
   }
   
   .authTopNavInput {
@@ -108,21 +108,21 @@
   
   .authTopNavDDBtn {
     position: relative;
-    display: flex;
-    padding: 6px var(--16, 16px);
-    align-items: center;
-    justify-content: center;
-    gap: var(--8, 8px);
-    border-radius: var(--48, 48px);
-    border: 2px solid var(--Secondary-200, #c9c9c9);
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    background: none;
-    transition: all 200ms linear;
+  display: flex;
+  padding: 6px 30px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--8, 8px);
+  border-radius: var(--48, 48px);
+  border: 2px solid var(--Secondary-200, #c9c9c9);
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  background: none;
+  transition: all 200ms linear;
   }
   
   .authTopNavSpan {
@@ -174,7 +174,6 @@
   .authTable {
     width: 1483.810px;
     margin-top: 80px;
-    padding: 15px 5px;
     border-collapse: collapse;
   }
   
@@ -194,39 +193,23 @@
   }
   
   .authTable #authTableTdId {
-    min-width: 100px;
-  }
-  
-  .authTable #authTableTdName {
-    min-width: 300px;
-  }
-  
-  .authTable #authTableTdEmail {
-    min-width: 400px;
-  }
-  
-  .authTable #authTableTdPhone {
-    min-width: 250px;
-  }
-  
-  .authTable #authTableTdGender {
     min-width: 200px;
   }
   
-  .authTable #authTableTdDate {
-    min-width: 150px;
+  .authTable #authTableTdName {
+    min-width: 200px;
   }
   
-  .authTable #authTableTdTime {
-    min-width: 150px;
+  .authTable #authTableTdEmail {
+    min-width: 200px;
   }
   
-  .authTable #authTableTdDes {
-    min-width: 150px;
+  .authTable #authTableTdPhone {
+    min-width: 200px;
   }
   
   .authTable .authTableTr .authTableTd {
-    padding: 10px 25px;
+    padding: 17px 15px;
     text-align: center;
   }
   

@@ -100,12 +100,12 @@ function Authoritiesdata() {
         <nav className='authTopNav'>
           <div className='authTopNavLeftSection'>
             <h6>No. Registration</h6>
-            <div className='authTotalReg'>
-              {Data.length}
+            <div className='authTotalauth'>
+              {records.length}
             </div>
           </div>
           <div className='authTopNavRightSection'>
-            <div>
+            {/* <div>
               <input type="text" placeholder='Search' className='authTopNavInput' onChange={filterName} />
             </div>
             <button className='authTopNavDDBtn' onMouseEnter={() => setOpenFDD(true)} onMouseLeave={() => setOpenFDD(false)}>
@@ -142,7 +142,7 @@ function Authoritiesdata() {
                 )
               }
             </button>
-            <button className='authTopNavBtn'>Export as CSV</button>
+            <button className='authTopNavBtn'>Export as CSV</button> */}
             <button className='authTopNavDDBtn' onMouseEnter={() => setOpenSDD(true)} onMouseLeave={() => setOpenSDD(false)}>
               <div>
                 {recordsPerPage}
@@ -174,9 +174,9 @@ function Authoritiesdata() {
             <tbody>
               {recordsDisp.map((d, i) => (
                 <tr key={i} className='authTableTr'>
-                  <td className='authTableTd' id='authTableTdId'>{d.eventname}</td>
+                  <td className='authTableTd' id='authTableTdName'>{d.eventname}</td>
                   <td className='authTableTd' id='authTableTdName'>{d.location}</td>
-                  <td className='authTableTd' id='authTableTdName'>{d.id}</td>
+                  <td className='authTableTd' id='authTableTdId'>{d.id}</td>
                   <td className='authTableTd' id='authTableTdEmail'>{d.password}</td>
                   <td className='authTableTd' id='authTableTdPhone'>{d.designation}</td>
                 </tr>

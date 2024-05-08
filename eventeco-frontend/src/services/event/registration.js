@@ -30,7 +30,7 @@ export function registerEvent(organizerName, eventname, organizerEmail, date, ti
             if (!response.data.success) {
                 throw new Error(response.data.msg)
             }
-            toast.success("Event Registred")
+            toast.success("Event Registered")
         }
         catch (error) {
             console.log("Error At Service of event Registration", error)
@@ -146,12 +146,12 @@ export function checkticket(codedata, ) {
             if (!response.data.success) {
                 throw new Error(response.data.msg)
             }
-            toast.success("ticket found")
+            toast.success("Ticket Found")
 
         }
         catch (error) {
             console.log("Error At Service of ticket check Registration", error)
-            toast.error("ticket not found");
+            toast.error("Ticket not Found");
         }
         toast.dismiss(toastId)
     }
@@ -169,7 +169,7 @@ export function addhomeData(name,email,subject,massage, navigate) {
             if (!response.data.success) {
                 throw new Error(response.data.msg)
             }
-            toast.success("Massage Registred")
+            toast.success("Massage Registered")
         }
         catch (error) {
             console.log("Error At Service of data Registration", error)
@@ -190,7 +190,7 @@ export function addhomeMail(subInput, navigate) {
             if (!response.data.success) {
                 throw new Error(response.data.msg)
             }
-            toast.success("Mail Subsribed")
+            toast.success("Mail Subscribed")
         }
         catch (error) {
             console.log("Error At Service of User Registration", error)

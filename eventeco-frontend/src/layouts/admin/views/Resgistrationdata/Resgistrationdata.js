@@ -101,11 +101,11 @@ function Resgistrationdata() {
           <div className='regTopNavLeftSection'>
             <h6>No. Registration</h6>
             <div className='regTotalReg'>
-              {Data.length}
+              {records.length}
             </div>
           </div>
           <div className='regTopNavRightSection'>
-            <div>
+            {/* <div>
               <input type="text" placeholder='Search' className='regTopNavInput' onChange={filterName} />
             </div>
             <button className='regTopNavDDBtn' onMouseEnter={() => setOpenFDD(true)} onMouseLeave={() => setOpenFDD(false)}>
@@ -141,8 +141,8 @@ function Resgistrationdata() {
                   </div>
                 )
               }
-            </button>
-            <button className='regTopNavBtn'>Export as CSV</button>
+            </button> */}
+            {/* <button className='regTopNavBtn'>Export as CSV</button> */}
             <button className='regTopNavDDBtn' onMouseEnter={() => setOpenSDD(true)} onMouseLeave={() => setOpenSDD(false)}>
               <div>
                 {recordsPerPage}
@@ -166,7 +166,7 @@ function Resgistrationdata() {
           <table className='regTable'>
             <thead>
               <th className='regTableTh' id='regTableTdId'>Trick Id.</th>
-              <th className='regTableTh' id='regTableTdName'>Event Nam</th>
+              <th className='regTableTh' id='regTableTdName'>Event Name</th>
               <th className='regTableTh' id='regTableTdName'>Firstname</th>
               <th className='regTableTh' id='regTableTdName'>lastname</th>
               <th className='regTableTh' id='regTableTdEmail'>Email</th>
